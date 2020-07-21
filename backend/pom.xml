@@ -14,6 +14,11 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<postgresql.version>42.2.14</postgresql.version>
+		<jjwt.version>0.9.1</jjwt.version>
+		<jjwt-api.verison>0.11.2</jjwt-api.verison>
 	</properties>
 
 	<dependencies>
@@ -42,12 +47,12 @@
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
-			<version>0.9.0</version>
+			<version>${jjwt.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-api</artifactId>
-			<version>0.10.6</version>
+			<version>${jjwt-api.verison}</version>
 		</dependency>
 
 		<!-- Spring Tools -->
