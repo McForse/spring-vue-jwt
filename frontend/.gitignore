@@ -21,6 +21,11 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+# IntelliJ IDEA #
+*.iws
+*.iml
+*.ipr
+
 node/
 npm-debug.log
 target
