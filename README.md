@@ -1,1 +1,1 @@
-spring-vue-jwt
+Full stack Spring Boot application with Vue.js JWT authentication
