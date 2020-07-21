@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.mcforse</groupId>
-		<artifactId>demo</artifactId>
+		<artifactId>spring-vue-jwt</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>backend</artifactId>
